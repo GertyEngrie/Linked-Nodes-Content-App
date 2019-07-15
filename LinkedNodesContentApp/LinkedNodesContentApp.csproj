@@ -283,13 +283,6 @@
     <Content Include="App_Plugins\b5LinkedNodesContentApp\PackageOptions\package.manifest" />
     <Content Include="LinkedNodesContentApp.nuspec" />
     <None Include="packages.config" />
-    <Content Include="web.config" />
-    <None Include="web.Debug.config">
-      <DependentUpon>web.config</DependentUpon>
-    </None>
-    <None Include="web.Release.config">
-      <DependentUpon>web.config</DependentUpon>
-    </None>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
